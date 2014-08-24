@@ -22,4 +22,4 @@ Script prepares tidy dataset according to the course project instructions. It do
 
 Full description of the data and the data set itself can be obtained from [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
-Resulting tidy data set is being written into `merged_std_mean_filter.txt`. 
+Resulting tidy data set is being written into `merged_avg_filter_std_mean.txt`. 

@@ -82,5 +82,5 @@ dim(merged_std_mean_filter)
 merged_avg_std_mean_filter <- aggregate(merged_std_mean_filter[,3:88], by=list(Subject=merged_std_mean_filter$Subject, Activity=merged_std_mean_filter$Activity), FUN=mean, na.rm=TRUE)
 dim(merged_avg_std_mean_filter)
 
-write.table(merged_avg_std_mean_filter, "merged_avg_std_mean_filter.txt", row.name=FALSE)
+write.table(merged_avg_std_mean_filter, "merged_avg_filter_std_mean.txt", row.name=FALSE)
 
